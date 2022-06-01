@@ -1,0 +1,10 @@
+#Dalis pridėto/redaguoto kodo
+
+
+function remove_privacy( $tabs ) {
+	unset( $tabs[300] );
+	return $tabs;
+}
+add_filter( 'um_account_page_default_tabs_hook', 'remove_privacy' );
+
+
