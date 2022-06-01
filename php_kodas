@@ -1,10 +1,93 @@
 #Dalis pridėto/redaguoto kodo
+#Kodo pakeitimų buvo atlikta labai daug, todėl bus pateikiama tik dalis redaguoto/pridėto kodo.
 
 
+-----------------------------------------------------------------------------
 function remove_privacy( $tabs ) {
 	unset( $tabs[300] );
 	return $tabs;
 }
 add_filter( 'um_account_page_default_tabs_hook', 'remove_privacy' );
+-----------------------------------------------------------------------------
 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    className: classNames.join(' ')
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
+    className: "result-heading"
+  }, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)('Jūsų rezultatas', 'learnpress')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    id: "quizResultGrade",
+    className: "result-grade"
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("svg", {
+    className: "circle-progress-bar",
+    width: width,
+    height: width
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("circle", {
+    className: "circle-progress-bar__circle",
+    stroke: "",
+    strokeWidth: border,
+    style: styles,
+    fill: "transparent",
+    r: r,
+    cx: radius,
+    cy: radius
+  })), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", {
+    className: "result-achieved"
+  }, `${percentResult}%`), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", {
+    className: "result-require"
+  }, passingGradeValue || '-')), done && (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
+    className: "result-message"
+  }, message), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("ul", {
+    className: "result-statistic"
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", {
+    className: "result-statistic-field result-time-spend"
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", null, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)('Trukmė', 'learnpress')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, results.timeSpend)), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", {
+    className: "result-statistic-field result-point"
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", null, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)('Taškai', 'learnpress')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, results.userMark, " / ", results.mark)), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", {
+    className: "result-statistic-field result-questions"
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", null, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)('Klausimai', 'learnpress')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, results.questionCount)), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", {
+    className: "result-statistic-field result-questions-correct"
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", null, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)('Teisingi', 'learnpress')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, results.questionCorrect)), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", {
+    className: "result-statistic-field result-questions-wrong"
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", null, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)('Klaidingi', 'learnpress')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, results.questionWrong)), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", {
+    className: "result-statistic-field result-questions-skipped"
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", null, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_2__.__)('Praleisti', 'learnpress')), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, results.questionEmpty))));
+  
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  if (end < questionsCount) {
+    if (questionsPerPage > 1) {
+      indexHtml = (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_3__.sprintf)((0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_3__.__)('Klausimas <span>%d iš %d of %d</span>', 'learnpress'), start, end, questionsCount);
+    } else {
+      indexHtml = (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_3__.sprintf)((0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_3__.__)('Klausimas <span>%d iš %d</span>', 'learnpress'), start, questionsCount);
+    }
+  } else {
+    indexHtml = (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_3__.sprintf)((0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_3__.__)('Klausimas <span>%d iš %d</span>', 'learnpress'), start, end);
+  }
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+    render() {
+    const {
+      answered
+    } = this.props;
+    return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)(_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.Fragment, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)("button", {
+      className: classnames__WEBPACK_IMPORTED_MODULE_2___default()('lp-button', 'instant-check', {
+        loading: this.state.loading,
+        disable: !answered
+      }),
+      onClick: this.checkAnswer
+    }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)("span", {
+      className: "instant-check__icon"
+    }), (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_5__.__)('Tikrinti atsakymą', 'learnpress'), !answered && (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)("div", {
+      className: "instant-check__info",
+      dangerouslySetInnerHTML: {
+        __html: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_5__.__)('Prieš tikrinant ataskymą turi būti atsakytas klausimas.', 'learnpress')
+      }
+    })));
+  }
+}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
+  
