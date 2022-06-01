@@ -1,0 +1,183 @@
+
+/*Profilio puslapis*/
+.page-id-6370 .content-area{
+	/*width: 1500px !important;*/
+	max-width: 100% !important;
+	margin: 0 auto !important;
+}
+
+/*Pagrindinis puslapis*/
+.page-id-6413 .content-area{
+max-width: 65% !important;
+margin: 0 auto !important;
+}  
+
+.content-area {
+	width: 100% !important;
+}
+
+.slicknav_menu {
+background-color: #15b08c;
+}
+
+.slicknav_nav a{
+	color: white !important;
+}
+
+.um-account-profile-link{
+	display: none;
+}
+
+#learn-press-profile .wrapper-profile-header .lp-profile-content-area {
+	display: none;
+}
+
+.orders, .settings{
+display: none;
+}
+
+.course-nav-tab-overview{
+	display: none;
+}
+
+
+.course-nav-tab-instructor{
+	display: none;
+}
+
+.meta-item-level{
+	display: none;
+}
+
+.lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-meta .course-meta__pull-left .meta-item-level {
+	display:none;
+}
+
+.lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-meta.course-meta-primary {
+	display: none;
+}
+
+.widget-area .widget {
+    margin: 0 0 40px;
+}
+
+.lp-archive-courses .learn-press-courses[data-layout=list] .course .course-item .course-content .course-readmore a{
+	background: white;
+	border: solid 1px black;
+}
+
+#learn-press-profile #profile-nav .lp-profile-nav-tabs li.active, #learn-press-profile #profile-nav .lp-profile-nav-tabs li:hover {
+	background: #36dd3e66;
+}
+
+.learn-press-filters > li span {
+    color: #059601;
+}
+/*Paslėptas "Displaying X to X of X quizzes." Jūsų mokymuose*/
+.list-table-nav{
+	display: none;
+}
+
+/*Kursų paieškos rezultatų neradimo koregavimas*/
+.learn-press-message {
+	width: 100%;
+}
+
+/* Pakeista "Peržiūrėti" mygtuko spalva*/
+.lp-archive-courses .learn-press-courses[data-layout=list] .course .course-item .course-content .course-readmore a {
+	background: #e6fbed !important;
+}
+
+
+.lp-archive-courses .course-summary .course-summary-content .course-detail-info{
+	color: black !important;
+	background: white !important;
+	border: solid 2px black;
+}
+
+.lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-title {
+	color: black !important;
+	padding: 0 10px;
+}
+
+.lp-archive-courses .course-summary .course-summary-content .course-detail-info .course-info-left .course-meta.course-meta-secondary {
+	padding: 0 10px;
+}
+
+
+.order-comments{
+	display: none;
+}
+
+/* Dėl tam tikrų tinklalapyje esamų spalvų pakeitimų, admin menu juosta pasidarė neįskaitoma, todėl buvo atlikti jai skirti pakeitimai */
+#wpadminbar {
+	background: #69c75e !important;
+}
+
+#wpadminbar a{
+	color: white !important;
+}
+
+#popup-course #popup-header {
+	background: #69c75e !important;
+}
+
+.learn-press-message {
+	border-top: 5px solid #69c75e;
+}
+
+.learn-press-message::before {
+	background: #69c75e;
+}
+
+#learn-press-course .course-summary-sidebar .course-sidebar-preview .lp-course-buttons button.button-enroll-course {
+	background: #69c75e;
+}
+
+#popup-course #popup-content .lp-button {
+	border-color: black;
+}
+
+/* button, .button, input[type="button"], input[type="reset"], input[type="submit"], .entry-thumb-inner {
+	background: #69c75e !important;
+} */
+
+#popup-course #popup-header .popup-header__inner .items-progress {
+	display: none;
+}
+
+.lp-modal-dialog .lp-modal-content .lp-modal-header {
+	background: #69c75e !important;
+}
+
+.learn-press-message::before {
+	background: #69c75e !important;
+	/*display: none;*/
+}
+
+.learn-press-message.error {
+	border-top: 5px solid #69c75e; 
+}
+
+.fa{
+	color: black;
+}
+
+/*Pašalina nuorodą į kurso kūrėjo profilį*/
+.lp-archive-courses .learn-press-courses .course .course-item .course-content .course-instructor {
+	display: none;
+}
+
+.quiz-status > div {
+	background: #69c75e !important;
+}
+
+.fa{
+	color: black !important;
+}
+
+#popup-course .back-course {
+	background: #69c75e !important;
+	border: solid 2px black;
+	
+}
